@@ -31,7 +31,7 @@ public class CuentaCommandServiceImpl implements ICuentaCommandService {
     }
 
     @Override
-    public void eliminarCuenta(CuentaDto cuenta) {
-        cuentaRepository.delete(mapper.map(cuenta, Cuenta.class));
+    public void eliminarCuenta(Long id) {
+      cuentaRepository.deleteById(id);
     }
 }
