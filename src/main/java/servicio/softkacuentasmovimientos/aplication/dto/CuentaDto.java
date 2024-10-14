@@ -1,13 +1,14 @@
 package servicio.softkacuentasmovimientos.aplication.dto;
 
-import lombok.Value;
+import lombok.Data;
+
 
 import java.io.Serializable;
 
 /**
  * DTO for {@link servicio.softkacuentasmovimientos.domain.entities.Cuenta}
  */
-@Value
+@Data
 public class CuentaDto implements Serializable {
     Long id;
     String numeroCuenta;

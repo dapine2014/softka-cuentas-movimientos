@@ -4,5 +4,5 @@ import servicio.softkacuentasmovimientos.aplication.dto.MovimientoDto;
 
 public interface IMovimientoCommandService {
 
-    MovimientoDto registrarMovimiento(MovimientoDto movimiento);
+    MovimientoDto registrarMovimiento(MovimientoDto movimientoDto);
 }
