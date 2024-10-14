@@ -14,7 +14,7 @@ import servicio.softkacuentasmovimientos.domain.repositories.ClienteEntityReposi
 import servicio.softkacuentasmovimientos.domain.services.ICuentaCommandService;
 import servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.service.KafkaMessageObserver;
 
-import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Optional;
 
