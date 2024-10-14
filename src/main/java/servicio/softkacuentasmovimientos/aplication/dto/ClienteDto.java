@@ -1,11 +1,13 @@
 package servicio.softkacuentasmovimientos.aplication.dto;
 
+import lombok.Builder;
 import lombok.Data;
 import java.io.Serializable;
 
 /**
  * DTO for {@link }
  */
+@Builder
 @Data
 public class ClienteDto implements Serializable {
     private   Long id;
