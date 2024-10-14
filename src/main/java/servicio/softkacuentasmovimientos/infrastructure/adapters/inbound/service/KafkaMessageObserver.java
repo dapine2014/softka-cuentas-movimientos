@@ -1,6 +1,7 @@
 package servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.service;
 
-import servicio.sofkaclientepersona.aplication.dto.MessageResponceDto;
+
+import servicio.softkacuentasmovimientos.aplication.dto.MessageResponceDto;
 
 public interface KafkaMessageObserver {
     void onMessageReceived(MessageResponceDto message);

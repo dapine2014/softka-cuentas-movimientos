@@ -1,14 +1,16 @@
 package servicio.softkacuentasmovimientos.infrastructure.adapters.outbound.listener;
 
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import servicio.sofkaclientepersona.aplication.dto.MessageResponceDto;
-import servicio.sofkaclientepersona.aplication.dto.TopicDto;
-import servicio.sofkaclientepersona.infrastructure.adapters.inbound.service.KafkaMessageObserver;
+import servicio.softkacuentasmovimientos.aplication.dto.MessageResponceDto;
+import servicio.softkacuentasmovimientos.aplication.dto.TopicDto;
+import servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.service.KafkaMessageObserver;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import static servicio.sofkaclientepersona.utils.JsonUtil.fromJson;
+import static servicio.softkacuentasmovimientos.utils.JsonUtil.fromJson;
 
 @Slf4j
 @Service

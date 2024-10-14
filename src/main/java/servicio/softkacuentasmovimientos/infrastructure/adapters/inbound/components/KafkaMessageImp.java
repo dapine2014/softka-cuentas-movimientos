@@ -3,8 +3,8 @@ package servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.compon
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
-import servicio.sofkaclientepersona.infrastructure.adapters.outbound.service.IKafkaSendMessage;
-import servicio.sofkaclientepersona.utils.KafkaMessageException;
+import servicio.softkacuentasmovimientos.infrastructure.adapters.outbound.service.IKafkaSendMessage;
+import servicio.softkacuentasmovimientos.utils.KafkaMessageException;
 
 import java.util.concurrent.ExecutionException;
 

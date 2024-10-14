@@ -2,8 +2,9 @@ package servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.compon
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import servicio.sofkaclientepersona.aplication.dto.MessageResponceDto;
-import servicio.sofkaclientepersona.infrastructure.adapters.inbound.service.KafkaMessageObserver;
+import servicio.softkacuentasmovimientos.aplication.dto.MessageResponceDto;
+import servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.service.KafkaMessageObserver;
+
 
 @Slf4j
 @Component

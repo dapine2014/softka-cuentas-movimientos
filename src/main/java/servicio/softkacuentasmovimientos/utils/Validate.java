@@ -1,12 +1,13 @@
 package servicio.softkacuentasmovimientos.utils;
 
+
 import org.springframework.stereotype.Component;
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
 
 import java.util.List;
 import java.util.Objects;
 
-import static servicio.sofkaclientepersona.utils.constant.*;
+import static servicio.softkacuentasmovimientos.utils.constant.*;
 
 @Component
 public class Validate {

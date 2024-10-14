@@ -1,6 +1,7 @@
 package servicio.softkacuentasmovimientos.aplication.ports.outbound;
 
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
+
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
 
 import java.util.List;
 

@@ -2,9 +2,10 @@ package servicio.softkacuentasmovimientos.aplication.usecases;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
-import servicio.sofkaclientepersona.aplication.ports.outbound.IReadClient;
-import servicio.sofkaclientepersona.domain.services.IClientEventService;
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
+import servicio.softkacuentasmovimientos.aplication.ports.outbound.IReadClient;
+import servicio.softkacuentasmovimientos.domain.services.IClientEventService;
+
 
 import java.util.List;
 

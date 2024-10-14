@@ -2,9 +2,10 @@ package servicio.softkacuentasmovimientos.aplication.usecases;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
-import servicio.sofkaclientepersona.aplication.ports.inbound.IUpdateClient;
-import servicio.sofkaclientepersona.domain.services.IClientCommandService;
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
+import servicio.softkacuentasmovimientos.aplication.ports.inbound.IUpdateClient;
+import servicio.softkacuentasmovimientos.domain.services.IClientCommandService;
+
 
 @Component
 public class ClientUpdateUsecase implements IUpdateClient {

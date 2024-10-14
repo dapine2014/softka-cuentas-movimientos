@@ -1,20 +1,19 @@
 package servicio.softkacuentasmovimientos.aplication.dto;
 
-import lombok.Value;
-import servicio.sofkaclientepersona.domain.entities.Persona;
+import lombok.Data;
+
+
 
 import java.io.Serializable;
 
-/**
- * DTO for {@link Persona}
- */
-@Value
+
+@Data
 public class PersonaEntityDto implements Serializable {
-    Long id;
-    String nombre;
-    String genero;
-    Integer edad;
-    String identificacion;
-    String direccion;
-    String telefono;
+    private Long id;
+    private String nombre;
+    private String genero;
+    private Integer edad;
+    private String identificacion;
+    private String direccion;
+    private String telefono;
 }

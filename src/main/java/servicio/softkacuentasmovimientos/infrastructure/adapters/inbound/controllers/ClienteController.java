@@ -3,11 +3,12 @@ package servicio.softkacuentasmovimientos.infrastructure.adapters.inbound.contro
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
-import servicio.sofkaclientepersona.aplication.ports.inbound.ICreateClient;
-import servicio.sofkaclientepersona.aplication.ports.inbound.IDeleteClient;
-import servicio.sofkaclientepersona.aplication.ports.inbound.IUpdateClient;
-import servicio.sofkaclientepersona.aplication.ports.outbound.IReadClient;
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
+import servicio.softkacuentasmovimientos.aplication.ports.inbound.ICreateClient;
+import servicio.softkacuentasmovimientos.aplication.ports.inbound.IDeleteClient;
+import servicio.softkacuentasmovimientos.aplication.ports.inbound.IUpdateClient;
+import servicio.softkacuentasmovimientos.aplication.ports.outbound.IReadClient;
+
 import java.util.List;
 
 @RestController

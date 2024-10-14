@@ -2,11 +2,11 @@ package servicio.softkacuentasmovimientos.aplication.services;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import servicio.sofkaclientepersona.aplication.dto.ClienteDto;
-import servicio.sofkaclientepersona.domain.entities.Cliente;
-import servicio.sofkaclientepersona.domain.repositories.ClienteEntityRepository;
-import servicio.sofkaclientepersona.domain.services.IClientEventService;
-import servicio.sofkaclientepersona.utils.Validate;
+import servicio.softkacuentasmovimientos.aplication.dto.ClienteDto;
+import servicio.softkacuentasmovimientos.domain.entities.Cliente;
+import servicio.softkacuentasmovimientos.domain.repositories.ClienteEntityRepository;
+import servicio.softkacuentasmovimientos.domain.services.IClientEventService;
+import servicio.softkacuentasmovimientos.utils.Validate;
 
 import java.util.List;
 import java.util.stream.Collectors;
